@@ -9,6 +9,12 @@ package biblioteca;
  *
  * @author roman
  */
-public class biblio {
+public abstract class biblio {
+     //ATRIBUTOS
+    
+    //MÉTODOS
+    public abstract void prestarPublicacion();
+    public abstract void regresarPublicacion();
+    public abstract void listarPublicaciones();
     
 }
